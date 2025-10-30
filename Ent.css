@@ -116,6 +116,32 @@ body {
     background-color: black;
 }
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .main-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .left-area {
+        flex-direction: column;
+        padding: 0.5rem 0;
+    }
+
+    .s, .c, .f {
+        margin: 0.3rem 0;
+        width: 80%;
+        text-align: center;
+    }
+  }
+
 .enterprise-section {
   padding: 80px 20px;
   background-color: #ffffff;
