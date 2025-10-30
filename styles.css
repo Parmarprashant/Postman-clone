@@ -1746,3 +1746,8 @@ body {
     height: 20px;
   }
 }
+
+.linked{
+  text-decoration: none;
+  color: #000000;
+}

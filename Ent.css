@@ -1375,3 +1375,8 @@ body {
     height: 20px;
   }
 }
+
+.linked{
+  text-decoration: none;
+  color: black;
+}
